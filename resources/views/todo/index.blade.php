@@ -89,9 +89,5 @@
             <a id="btn-Link" class="btn btn-danger stretched-link" href="{{asset('/'. $todo->id. '/delete')}}">Remove</a>
         </li>
     @endforeach
-    <a href="TODO-Graph" class="graph-icon-link"><img class="graph-icon-img" src="images/graph.png"/></a>
-    <a href="TODO-Notes" class="notes-icon-link"><img class="notes-icon-img" src="images/notes.png"/></a>
-    <a href="TODO-Organizer" class="card-icon-link"><img class="card-icon-img" src="images/card.png"/></a>
-    <a href="TODO-Script" class="script-icon-link"><img class="script-icon-img" src="images/script.png"/></a>
 </body>
 </html>

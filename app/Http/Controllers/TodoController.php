@@ -56,23 +56,4 @@ class TodoController extends Controller
         $todo->delete();
         return redirect()->back()->with('success', 'TODO Removed Successfully!');
     }
-
-    public function graph() {
-        return view("todo.graph");
-    }
-    
-    public function notes() {
-        return view("todo.notes");
-    }
-    
-    public function organizer() {
-        return view("todo.organizer");
-    }
-
-    public function script() {
-        return view("todo.script");
-    }
-    public function convert() {
-        return null;
-    }
 }
